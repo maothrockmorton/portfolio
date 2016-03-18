@@ -1,0 +1,216 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.page-nav {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+	top: 0px;
+	padding: 10px;
+}
+
+.open {
+	margin: 0 auto;
+	width: 970px;
+}
+
+.page-nav .logo {
+	background-color: white;
+	width: 100%;
+	z-index: 9999;
+	height: 25em;
+}
+
+.boop {
+	float: right;
+	margin-bottom: 0px;
+	margin-top: 0px;	
+	vertical-align: middle;
+}
+
+.boop li {
+	display: inline;
+	background-color: white;
+	float: left;
+	padding: 1em;	
+}
+
+.page-nav li b {
+	color:black;
+	font-weight: 500;
+}
+
+.logo {
+	width: 30.5px;
+	display: inline-block;
+	float:left;
+	vertical-align: center;
+}
+
+.introduction .content {
+	background-image: url("../images/background.jpg");
+	width: 100%;
+	display: inline-block;
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	height: 25rem;
+	text-align: center;
+	color: white;
+}
+
+.introduction {
+	background-position: 0 bottom;
+	height: 5rem;
+	background-size: cover;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+	overflow: auto;
+	font-weight: 300;
+	
+}
+
+.introduction h3 {
+	text-align: center;
+	margin-top: 1.25rem;
+	font-size: 1.532rem;
+	font-weight: 100;
+}
+
+.introduction .button {
+	margin-top: 1.53rem;
+}
+
+button {
+	border-color: #f15a29;
+	background-color: #f15a29;
+	width: 9.688rem;
+	border-radius: 4px;
+	border-style: none;
+	font-size: 1.25rem;
+	color: white;
+	display: inline-block;
+	font-size: 1.125rem;
+	text-shadow: none;
+	height: 3.5rem;
+	margin: 0 auto;
+}
+
+.introduction a:hover {
+    text-decoration: black;
+}
+
+.content {
+	width: 970px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+}
+
+.content h2, h3 {
+	text-align: center;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.content h3 {
+	font-size: 26px;
+	font-weight: 400;
+	border-style: solid hidden hidden hidden;
+	padding-top: 5em;
+}
+
+
+.devices {
+	display: inline-block;
+	width: 100%
+	height: 33em;
+	text-align: center;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.devices img {
+	height: 25em;
+	width: 25em;
+	object-fit: cover;
+	
+}
+
+.content h5 {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.content .icons li {
+	display:inline-block;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 50%;
+	border: 1px solid #838994;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	padding: .5rem;
+}
+
+.icons .icon-stack {
+	color: #E6E2C5;
+}
+
+.icons .fa-facebook {
+	color: #4c66a4;
+}
+
+.icons .fa-instagram {
+	color: #3f729b;
+}
+
+.contact {
+	height: 20px;
+}
+
+
+.content .icons {
+	padding-left: 0;
+}
+
+
+.copy {
+	font-size: .9rem;
+	color: #838994;
+	font-weight: 300;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited, a:active {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
